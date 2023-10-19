@@ -8,7 +8,7 @@ import openai
 
 
 model_name = "gpt-3.5-turbo"
-open_ai_key = "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"
+open_ai_key = "INSERT_OPENAI_KEY"
 
 openai_ef = embedding_functions.OpenAIEmbeddingFunction(
                 api_key=open_ai_key,
